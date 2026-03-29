@@ -1,0 +1,27 @@
+{
+  "name": "dhanush-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Dhanush S — Kristu Jayanti University (25AIMA19)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Static site — no build step needed.'"
+  },
+  "keywords": ["portfolio", "web-developer", "nodejs", "tidb", "dhanush"],
+  "author": "Dhanush S <25AIMA19> — Kristu Jayanti University",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "mysql2": "^3.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
